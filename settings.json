@@ -1,0 +1,16 @@
+{
+  "botName": "BladeBot",
+  "server": {
+    "host": "SharpnessSMP00.aternos.me",
+    "port": 59889,
+    "version": "26.2",
+    "auth": "offline"
+  },
+  "behavior": {
+    "eatAtFoodLevel": 14,
+    "fightDistance": 10,
+    "woodDistance": 32,
+    "wanderDistance": 12,
+    "reconnectDelay": 10000
+  }
+}
