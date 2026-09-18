@@ -12,7 +12,7 @@ const collectBlock = require('mineflayer-collectblock').plugin
 
 const bot = mineflayer.createBot({
   host: 'SharpnessSMP00.aternos.me',
-  port: 25565,
+  port: 59889,
   username: 'BladeBot',
   version: '26.1',
   auth: 'offline'
