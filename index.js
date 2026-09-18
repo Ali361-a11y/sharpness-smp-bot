@@ -1,3 +1,11 @@
+const http = require('http')
+
+const PORT = process.env.PORT || 3000
+
+http.createServer((req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/plain' })
+  res.end('Sharpness SMP bot is running')
+}).listen(PORT, '0.0.0.0')
 const mineflayer = require('mineflayer')
 const { pathfinder, Movements, goals } = require('mineflayer-pathfinder')
 const collectBlock = require('mineflayer-collectblock').plugin
