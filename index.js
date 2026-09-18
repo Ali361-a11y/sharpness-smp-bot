@@ -10,7 +10,7 @@ const mineflayer = require('mineflayer')
 const { pathfinder, Movements, goals } = require('mineflayer-pathfinder')
 const collectBlock = require('mineflayer-collectblock').plugin
 
-const bot = mineflayer.createBot({
+console.log('🤖 Starting Minecraft bot...')const bot = mineflayer.createBot({
   host: 'SharpnessSMP00.aternos.me',
   port: 59889,
   username: 'BladeBot',
